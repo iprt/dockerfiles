@@ -11,6 +11,6 @@ image_name="registry.cn-shanghai.aliyuncs.com/iproute/openjdk"
 
 bash <(curl https://code.kubectl.net/devops/build-project/raw/branch/main/docker/build.sh) \
   -i "$image_name" \
-  -v "17-jdk-update" \
+  -v "17-jdk-bullseye-update" \
   -r "false" \
   -p "true"
