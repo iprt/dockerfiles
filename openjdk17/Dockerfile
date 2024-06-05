@@ -9,4 +9,4 @@ RUN apt-get update \
     &&mkfontdir \
     &&fc-cache
 
-CMD["java","-version"]
+CMD java -version
